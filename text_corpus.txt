@@ -1,0 +1,71 @@
+Categorical or qualitative data attributes
+Categorical or qualitative data attributes are as follows:
+These kinds of data attributes are more descriptive
+Examples are our written notes, corpora provided by nltk, a corpus that has recorded
+different types of breeds of dogs, such as collie, shepherd, and terrier
+There are two sub-types of categorical data attributes:
+Ordinal data:
+This type of data attribute is used to measure non-numeric concepts such as
+satisfaction level, happiness level, discomfort level, and so on.
+Consider the following questions, for example, which you're to answer from
+the options given:
+Question 1: How do you feel today?
+Options for Question 1:
+Very bad
+Bad
+Good
+Happy
+Very happy
+Now you will choose any of the given options. Suppose you choose
+Good, nobody can convert how good you feel to a numeric value.
+All the preceding options are non-numeric concepts. Hence, they lie under the
+category of ordinal data.
+Question 2: How would you rate our hotel service?
+Options for Question 2:
+Bad
+Average
+Above average
+Good
+GreatPractical Understanding of a Corpus and Dataset
+[ 30 ]
+Now suppose you choose any of the given options. All the aforementioned
+options will measure your satisfaction level, and it is difficult to convert your
+answer to a numeric value because answers will vary from person to person.
+Because one person says Good and another person says Above average, there
+may be a chance that they both feel the same about the hotel service but give
+different responses. In simple words, you can say that the difference between
+one option and the other is unknown. So you can't precisely decide the
+numerical values for these kinds of data.
+Nominal data:
+This type of data attribute is used to record data that doesn't overlap.
+Example: What is your gender? The answer is either male or female, and the
+answers are not overlapping.
+Take another example: What is the color of your eyes? The answer is either
+black, brown, blue, or gray. (By the way, we are not considering the color
+lenses available in the market!)
+In NLP-related applications, we will mainly deal with categorical data attributes. So, to
+derive appropriate data points from a corpus that has categorical data attributes is part of
+feature engineering. We will see more on this in Chapter 5, Feature Engineering and NLP
+Algorithms.
+Some corpora contain both sub-types of categorical data.
+Numeric or quantitative data attributes
+The following are numeric or quantitative data attributes:
+These kinds of data attributes are numeric and represent a measurable quantity
+Examples: Financial data, population of a city, weight of people, and so on
+There are two sub-types of numeric data attributes:
+Continuous data:
+These kinds of data attributes are continuous
+Examples: If you are recording the weight of a student, from 10 to 12 years of
+age, whatever data you collect about the student's weight is continuous data;
+Iris flower corpusPractical Understanding of a Corpus and Dataset
+[ 31 ]
+Discrete data:
+Discrete data can only take certain values
+Examples: If you are rolling two dice, you can only have the resultant values
+of 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12; you never get 1 or 1.5 as a result if you are
+rolling two dice
+Take another example: If you toss a coin, you will get either heads or tails
+These kinds of data attributes are a major part of analytics applications.
+Exploring different file formats for corpora
+Corpora can be in many different formats. In practice, we can use the following file formats.
+All these file formats are generally us
